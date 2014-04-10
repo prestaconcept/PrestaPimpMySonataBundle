@@ -1,0 +1,31 @@
+{
+    "name": "presta/pimp-my-sonata-bundle",
+    "type": "symfony-bundle",
+    "description": "PrestaPimpMySonataBundle : Same concept as Pimp My Ride TV show but for SonataAdminBundle",
+    "keywords": ["symfony2", "bundle", "sonata-project", "design", "prestaconcept"],
+    "homepage": "https://github.com/prestaconcept/PrestaConfigurationBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Bastien",
+            "email": "nbastien@prestaconcept.net",
+            "homepage": "http://www.prestaconcept.net/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "suggest": {
+        "presta/presta-cms": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": { "Presta\\PimpMySonataBundle": "" }
+    },
+    "target-dir": "Presta/PimpMySonataBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
