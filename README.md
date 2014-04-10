@@ -1,7 +1,7 @@
 PrestaPimpMySonataBundle
 =========================
 
-# Overview #
+## Overview ##
 
 Same concept as Pimp My Ride TV show but for SonataAdminBundle
 
