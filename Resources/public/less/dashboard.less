@@ -1,0 +1,49 @@
+
+div.dashboard-block {
+    border: 1px solid #cdcdcd;
+    margin: 0px 0 20px 0;
+    padding: 0px;
+    .border-radius(3px);
+    .box-shadow(0 13px 5px -10px #AAA);
+
+    .dashboard-block-title {
+        border-bottom: none;
+
+        h3 {
+            background: @brand-primary;
+            font-weight: bold;
+            font-size: 14px;
+            font-family: @headingsFontFamily;
+            line-height: 35px;
+            color: @brand-primary-font-color;
+            margin: 0px;
+            cursor: pointer;
+            padding-left: 25px;
+            text-transform: capitalize;
+        }
+    }
+    .dashboard-block-content {
+        padding: 15px 25px;
+        border-top: 1px solid #CECECE;
+        background: @dashboardBlockBackgroundColor ;
+
+        h4 {
+            margin: 0 0 10px 0;
+            font-family: @headingsFontFamily;
+            color: @headingsColor;
+            text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+            font-weight: normal;
+        }
+        a.link {
+            margin-left: 10px;
+        }
+        .block-content-block {
+            padding-left: 65px;
+            min-height: 60px;
+            background-position: 0 7px;
+            background-color: transparent;
+            background-repeat: no-repeat;
+        }
+    }
+
+}

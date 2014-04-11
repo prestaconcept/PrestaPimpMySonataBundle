@@ -1,0 +1,44 @@
+
+
+body.login-screen {
+    background: url(@theme-img-path + 'login-bg.png') no-repeat fixed 10% 80% @loginBackgroundColor;
+}
+
+.sonata-bc.login-screen {
+
+    .navbar {
+        display: none;
+    }
+
+    div.connection {
+
+        border: 5px #F4F4F4 solid;
+        box-shadow: 2px 2px 15px #616163;
+        margin: 100px auto;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        background: #FFF;
+
+        form {
+            background-color: white;
+            border: 1px #CCC solid;
+            border-radius: 6px;
+
+            .form-actions {
+                text-align: right;
+            }
+        }
+        label[for=remember_me] {
+            width: 170px;
+            margin-top: 35px;
+            margin-left: 50px;
+            float: left;
+
+            input[type="checkbox"]{
+                float: left;
+                margin-right: 10px;
+            }
+        }
+    }
+}

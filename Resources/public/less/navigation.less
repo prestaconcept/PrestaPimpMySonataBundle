@@ -1,0 +1,76 @@
+
+.sonata-bc {
+    .navbar {
+        .container-fluid {
+            padding-left: 0px;
+        }
+        a.brand {
+            background: url(@theme-img-path + 'navigation-logo.png') 5px 7px no-repeat @brandLogoBackgroundColor;
+            color: @brand-primary-font-color;
+            padding: 5px 25px 5px 55px;
+            img {
+                display: none;
+            }
+        }
+        .nav > li > a {
+            font-weight: bold;
+            color: #777;
+            text-shadow: rgba(0, 0, 0, 0.246094) 0px -1px 0px;
+            font-size: 12px;
+            padding: 15px;
+        }
+
+
+        .dropdown {
+
+            .dropdown-menu {
+                background-color: #616163;
+                padding: 0px;
+                margin-top: 0px;
+
+                li, li.open {
+                    border-bottom: 1px solid #353535;
+
+                    a {
+                        padding: 10px;
+                        /*color: #a4a4a4; *//*#797979;*/
+                        color: #FFF;
+                        font-weight: bold;
+                        font-size: 14px;
+
+                        &:hover {
+                            text-shadow: white 0px 1px 0px;
+                            color: #333;
+                        }
+
+                        &.nav-submenu {
+                            padding-left: 35px;
+
+                            background-position: 10px center;
+                            background-repeat: no-repeat;
+
+                            /* HOVER OFF */
+                            -webkit-transition: padding 50ms ease;
+                            -moz-transition: padding 50ms ease;
+                            -ms-transition: padding 50ms ease;
+                            -o-transition: padding 50ms ease;
+                            transition: padding 50ms ease;
+
+                            p {
+                                color: #F3F3F3;
+                                font-size: 12px;
+                                margin-bottom: 0px;
+                                padding-left: 5px;
+                            }
+
+                            &:hover {
+                                background: @brand-primary-light;
+                                color: @brand-primary-font-color;
+                            }
+                        }
+                    }
+                }
+            }//.dropdown-menu
+        }
+    }
+}
